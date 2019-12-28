@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Search"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:hint="Book name"
+        android:id="@+id/searchbook"
+        android:layout_above="@+id/searchhadith"
+        android:layout_centerHorizontal="true">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="Hadith No"
+        android:id="@+id/searchhadith"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/searchbook"
+        android:layout_alignStart="@+id/searchbook"
+        android:layout_marginBottom="41dp">
+        <requestFocus />
+    </EditText>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.siddiq.bukhari___sharef.chapter_name"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:background="@drawable/bb">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="صحيح البخاري"
+            android:id="@+id/textView4"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/chapterlist"
+            android:layout_alignParentBottom="true"
+            android:divider="@drawable/lisview_divider"
+            android:dividerHeight="3dp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="40dp" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

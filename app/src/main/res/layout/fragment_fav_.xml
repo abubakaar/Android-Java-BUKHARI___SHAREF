@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.siddiq.bukhari___sharef.Fav_Frag"
+    android:orientation="vertical"
+    android:background="@drawable/bb">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top"
+            android:divider="@drawable/lisview_divider"
+            android:dividerHeight="3dp"
+            android:id="@+id/fav_list">
+
+        </ListView>
+    </RelativeLayout>
+
+
+</LinearLayout>
